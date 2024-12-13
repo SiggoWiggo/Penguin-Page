@@ -1,0 +1,146 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Darker grey background for the body */
+    color: #e0e0e0; /* Light grey text color for better contrast */
+    margin: 0;
+    padding: 0;
+    font-size: 20px; /* Increased font size */
+}
+
+/* Header Styling */
+header {
+    background-color: #4d3174; /* Dark purple header */
+    color: #ffffff; /* White text */
+    padding: 60px; /* Increased padding */
+    text-align: center;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #3e2560; /* Slightly darker purple background */
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px; /* Increased margin */
+}
+
+nav ul li a {
+    color: #ffffff; /* White links */
+    text-decoration: none;
+    padding: 20px 30px; /* Increased padding */
+    font-weight: bold;
+    font-size: 24px; /* Increased font size for links */
+}
+
+nav ul li a:hover {
+    background-color: #6a4298; /* Lighter purple for hover effect */
+    border-radius: 5px;
+}
+
+/* About Section Styling */
+#about {
+    padding: 60px; /* Increased padding */
+    margin: 40px; /* Increased margin */
+    background-color: #2d2d2d; /* Darker grey for section background */
+    border-radius: 20px; /* Increased border radius */
+    color: #ffffff; /* White text for readability */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.about-img {
+    width: 15%; /* Set width as a percentage relative to the parent container */
+    height: auto;
+    margin-right: 40px; /* Increased margin */
+    border-radius: 20px; /* Larger border radius */
+}
+
+/* Diet Section Styling */
+#diet {
+    padding: 60px; /* Increased padding */
+    margin: 40px; /* Increased margin */
+    background-color: #2d2d2d; /* Dark grey background for diet section */
+    border-radius: 20px; /* Increased border radius */
+}
+
+#diet ul {
+    list-style: none;
+    padding: 0;
+    font-size: 24px; /* Increased font size */
+}
+
+#diet li {
+    padding: 10px 0; /* Increased padding */
+    color: #ffffff; /* White text for food items */
+}
+
+#diet table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px; /* Increased margin */
+}
+
+#diet th, #diet td {
+    border: 2px solid #4d3174; /* Dark purple border for the table */
+    padding: 20px; /* Increased padding */
+    text-align: left;
+    font-size: 24px; /* Increased font size */
+}
+
+#diet th {
+    background-color: #4d3174; /* Purple background for table headers */
+    color: white;
+}
+
+#diet td {
+    background-color: #333333; /* Dark grey for table data rows */
+}
+
+/* Diet Image Styling */
+.diet-image img {
+    width: 100%; /* Set width to 100% to make it responsive and relative to the container */
+    max-width: 800px; /* Set maximum width to avoid stretching on large screens */
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px; /* Increased space between the table and the image */
+}
+
+/* Habitat Section Styling */
+#habitat {
+    padding: 60px; /* Increased padding */
+    margin: 40px; /* Increased margin */
+    background-color: #2d2d2d; /* Dark grey for habitat section */
+    border-radius: 20px; /* Increased border radius */
+}
+
+#habitat a {
+    color: #7a56d8; /* Brighter purple link color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px; /* Increased font size for the link */
+}
+
+#habitat a:hover {
+    color: #6a4298; /* Lighter purple for hover effect */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4d3174; /* Purple footer */
+    color: white;
+    text-align: center;
+    padding: 40px; /* Increased padding */
+    margin-top: 80px; /* Increased margin-top */
+    border-top: 2px solid #333333; /* Dark grey border at the top */
+    font-size: 24px; /* Increased font size */
+}
